@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mandarina</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="(max-width:1500px)"
+      href="./css/main(1500).css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="(max-width:1200px)"
+      href="./css/main(1200).css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="(max-width:1000px)"
+      href="./css/main(1000).css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="(max-width:480px)"
+      href="./css/main(480).css"
+    />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <!---------------------헤더--------------------->
+      <header id="header">
+        <div class="header_top">
+          <div class="header_sub">
+            <div class="header_notice">
+              <ul>
+                <li><a href="">공지사항</a></li>
+                <li><a href="">고객센터</a></li>
+              </ul>
+            </div>
+            <div class="header_login">
+              <ul>
+                <li class="header_login2"><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+                <li><a href="">주문조회</a></li>
+                <li><a href="">마이페이지</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header_center">
+          <div class="header_logo">
+            <h1><img src="./images/logo1.png" alt="" /></h1>
+          </div>
+
+          <div id="header_nav">
+            <ul class="header_navv">
+              <li>
+                <a href="" style="color: blue">신제품</a>
+              </li>
+              <li>
+                <a href="" style="color: red">할인중</a>
+              </li>
+              <li>
+                <a href="./sub.html" target="_black">남자가방</a>
+                <ul class="subb">
+                  <li><a href="#">백팩</a></li>
+                  <li><a href="#">슬링백</a></li>
+                  <li><a href="#">크로스백</a></li>
+                  <li><a href="#">토드백및 서류가방</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">여자가방</a>
+                <ul class="subb">
+                  <li><a href="#">백팩</a></li>
+                  <li><a href="#">슬링백</a></li>
+                  <li><a href="#">크로스백</a></li>
+                  <li><a href="#">토드백및 서류가방</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">악세사리</a>
+                <ul class="subb">
+                  <li><a href="#">악세사리</a></li>
+                  <li><a href="#">레저용악세사리</a></li>
+                  <li><a href="#">모자</a></li>
+                  <li><a href="#">신발</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">캐리어</a>
+                <ul class="subb">
+                  <li><a href="#">캐리어</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">레저가방</a>
+                <ul class="subb">
+                  <li><a href="#">캐디백</a></li>
+                  <li><a href="#">보스턴백</a></li>
+                  <li><a href="#">파우치</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">남자상하의</a>
+                <ul class="subb">
+                  <li><a href="#">아우터</a></li>
+                  <li><a href="#">후드&MTM</a></li>
+                  <li><a href="#">티셔츠</a></li>
+                  <li><a href="#">남자하의</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">여자상하의</a>
+                <ul class="subb">
+                  <li><a href="#">티셔츠</a></li>
+                  <li><a href="#">바람막이</a></li>
+                  <li><a href="#">저지</a></li>
+                  <li><a href="#">자켓,코트</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">백팩</a>
+              </li>
+              <li>
+                <a href="">캐리어</a>
+              </li>
+
+              <li>
+                <a href="">옷&ACC</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="group_m">
+            <a href="#" class="btn_m">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+          <div class="group_title">
+            <p>로그인</p>
+            <div class="group_line"></div>
+            <p>회원가입</p>
+            <div class="group_line"></div>
+            <p>주문조회</p>
+            <div class="group_line"></div>
+            <p>마이페이지</p>
+            <div class="group_line"></div>
+            <button class="group_close">CLOSE</button>
+          </div>
+          <div class="search">
+            <input
+              type="text"
+              class="search2"
+              placeholder="  검색어를 입력해주세요"
+            />
+            <img src="./images/3917754.png" alt="" />
+          </div>
+        </div>
+
+        <div class="mainimg">
+          <div id="view">
+            <ul class="list">
+              <li>
+                <h2>
+                  <p>MAN'S BAG</p>
+                  <button>SHOP NOW</button>
+                </h2>
+              </li>
+              <li>
+                <h2>
+                  <p>LADIES'S BAG</p>
+                  <button>SHOP NOW</button>
+                </h2>
+              </li>
+              <li>
+                <h2>
+                  <p>LEISURE BAG</p>
+                  <button>SHOP NOW</button>
+                </h2>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="btn">
+            <li><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+          </ul>
+
+          <div class="tri_left"></div>
+          <div class="tri_right"></div>
+        </div>
+      </header>
+      <!---------------------컨텐츠1--------------------->
+      <section id="contents">
+        <div class="best">
+          <div class="best_title">
+            <p>할인 이벤트 BEST</p>
+            <div class="best_nav">
+              <ul>
+                <li><a href="#">BEST</a></li>
+                <li><a href="#">백팩</a></li>
+                <li><a href="#">캐리어</a></li>
+                <li><a href="#">레저가방</a></li>
+                <li><a href="#">옷&ACC</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="best_main">
+            <ul>
+              <li>
+                <img src="./images/마스크 그룹 55.png" alt="" />
+                <h4>백팩 AIR 69T01032 (15")</h4>
+                <p>30% SALE</p>
+                <p class="sale">398,000원</p>
+                <span>278,600원</span>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 47.png" alt="" />
+                <h4>보스턴백 AIR 69B01001</h4>
+                <p>30% SALE</p>
+                <p class="sale">458,000원</p>
+                <span>320,600원</span>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 51.png" alt="" />
+                <h4>(21"확장형)LOGODUCK+ SZV3427S</h4>
+                <p>19% SALE</p>
+                <p class="sale">518,000원</p>
+                <span>418,000원</span>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 50.png" alt="" />
+                <h4>골프 하프백 REVIVAL <br />7Rz50673</h4>
+                <p>30% SALE</p>
+                <p class="sale">238,000원</p>
+                <span>166,600원</span>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 54.png" alt="" />
+                <h4>패커블 셔츠자켓 <br />BENE BNJ31560</h4>
+                <p>30% SALE</p>
+                <p class="sale">338,000원</p>
+                <span>236,000원</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="ranking">
+          <div class="ranking_title">
+            <p>인기제품 랭킹 BEST</p>
+            <div class="ranking_nav">
+              <ul>
+                <li><a href="#">BEST</a></li>
+                <li><a href="#">백팩</a></li>
+                <li><a href="#">캐리어</a></li>
+                <li><a href="#">레저가방</a></li>
+                <li><a href="#">옷&ACC</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="ranking_main">
+            <ul>
+              <li>
+                <img src="./images/마스크 그룹 35.png" alt="" />
+                <h4>백팩 SIGNATURE S9T01651 (15")</h4>
+                <p></p>
+                <p class="sale"></p>
+                <span>338,000원</span>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 36.png" alt="" />
+                <h4>토트백 NOMAD GNT05651</h4>
+                <p>30% SALE</p>
+                <p class="sale">418,000원</p>
+                <span>292,600원</span>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 37.png" alt="" />
+                <h4>토트백 GRAVITA G7T05651</h4>
+                <p>30% SALE</p>
+                <p class="sale">378,000원</p>
+                <span>264,600원</span>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 56.png" alt="" />
+                <h4>백팩 NOMAD GNT30651 (15")</h4>
+                <p>30% SALE</p>
+                <p class="sale">292,600원</p>
+                <span>418,000원</span>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 57.png" alt="" />
+                <h4>크로스백 XING XIT03651</h4>
+                <p>30% SALE</p>
+                <p class="sale">238,000원</p>
+                <span>166,600원</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="top">
+          <div class="top_title">
+            <p>TRAVEL&LEISURE 인기제품 랭킹 TOP</p>
+          </div>
+          <div class="top_main">
+            <ul>
+              <li>
+                <img src="./images/마스크 그룹 52.png" alt="" />
+                <h4>
+                  # 화사한색감<br />
+                  # 가볍고 튼튼<br />
+                  # 소음이적어요<br />
+                  # 잘팔려요<br />
+                </h4>
+                <p class="bag_title">
+                  캐리어<br />MARACON MXV13384 (29")<br /><br />
+                  20% 598,000원
+                </p>
+                <p class="sale" style="color: red">478,000원</p>
+                <button>BUY IT NOW</button>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 67.png" alt="" />
+                <h4>
+                  # 세련된 컬러<br />
+                  # 높이조절가능<br />
+                  # 다양한 사이즈포켓<br />
+                  # 가볍고이뻐요<br /><br />
+                </h4>
+                <p class="bag_title">
+                  캐디백<br /><br />
+                  DAYDAY DYZ50121<br />
+                </p>
+                <p class="sale">598,000원</p>
+                <button>BUY IT NOW</button>
+              </li>
+              <li>
+                <img src="./images/마스크 그룹 68.png" alt="" />
+                <h4>
+                  # 고급스러운 컬러<br />
+                  # 사이즈넉넉<br />
+                  # 가볍고튼튼<br />
+                  # 보스턴인기top<br /><br /><br />
+                </h4>
+                <p class="bag_title">
+                  보스턴백<br /><br />
+                  DAYDAY DYB51121<br />
+                </p>
+                <p class="sale">318,000원</p>
+                <button>BUY IT NOW</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="daily">
+          <ul>
+            <li>
+              <div class="backpack_title">DAILY & BUSINESS</div>
+              <img src="./images/1.png" alt="" />
+              <p>
+                BACKPACK<br />
+                &nbsp;심플한 디자인과 넉넉한 수납공간으로 실용적인 백팩
+              </p>
+            </li>
+            <li>
+              <div class="backpack_title">TRAVEL & LEISURE</div>
+              <img src="./images/2.png" alt="" />
+              <p>
+                LOGO DUCK+<br />
+                &nbsp;생동감 있는 컬러감이 돋보이는 시그니쳐 캐리어
+              </p>
+            </li>
+            <li>
+              <div class="backpack_title">APPAREL</div>
+              <img src="./images/3.png" alt="" />
+              <p>
+                CREDO<br />
+                &nbsp;플리스 소재의 가벼운 후드 집업 아우터
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="banner"></div>
+      <!---------------------컨텐츠2--------------------->
+      <section id="contents2">
+        <div class="sub_best">
+          <div class="best2_title">
+            <div class="best2_title1">다양한 할인 EVENT BEST</div>
+            <div class="best2_title2">
+              <button>DAILY & BUSINESS</button>
+              <button>TRAVEL & LEISURE</button>
+              <button>APPAREL</button>
+            </div>
+            <div class="best2_title3">
+              <div class="tri_left2"></div>
+              <div class="tri_right2"></div>
+            </div>
+          </div>
+          <div class="sub_bestmain">
+            <div class="sub_bestmainimg">
+              <img src="./images/4.png" alt="" />
+            </div>
+            <div class="sub_bestmain2">
+              <ul class="list2">
+                <li>
+                  <div class="list4">
+                    <div class="slide2">
+                      <img src="./images/5.png" alt="" />
+                      <p class="sub_bestmainp1">크로스백 TOAST TOT03651</p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">278,000원</p>
+                      <span> 194,600원</span>
+                    </div>
+                    <div class="slide2">
+                      <img src="./images/6.png" alt="" />
+                      <p class="sub_bestmainp1">토트백 VIOLA MINI VLT55121</p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">338,000원</p>
+                      <span>236,600원</span>
+                    </div>
+                    <div class="slide2">
+                      <img src="./images/7.png" alt="" />
+                      <p class="sub_bestmainp1">토트백 VIOLA MINI VLT55651</p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">338,000원</p>
+                      <span>236,600원</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="list4">
+                    <div class="slide2">
+                      <img src="./images/1000001426_main_089.jpg" alt="" />
+                      <p class="sub_bestmainp1">
+                        패커블 보스턴백 REVIVAL 7RT12177
+                      </p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">222,600원</p>
+                      <span> 194,600원</span>
+                    </div>
+                    <div class="slide2">
+                      <img src="./images/1000001427_main_037.jpg" alt="" />
+                      <p class="sub_bestmainp1">
+                        패커블 보스턴백 REVIVAL 7RT1222I
+                      </p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">222,600원</p>
+                      <span>236,600원</span>
+                    </div>
+                    <div class="slide2">
+                      <img src="./images/1000001428_main_033.jpg" alt="" />
+                      <p class="sub_bestmainp1">골프 하프백 REVIVAL 7RZ50177</p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">166,600원</p>
+                      <span>236,600원</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="list4">
+                    <div class="slide2">
+                      <img src="./images/1100000666_main_042.jpg" alt="" />
+                      <p class="sub_bestmainp1">치노팬츠 TECHNICO TNQ50231</p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">194,600원</p>
+                      <span> 194,600원</span>
+                    </div>
+                    <div class="slide2">
+                      <img src="./images/1100000667_main_04.jpg" alt="" />
+                      <p class="sub_bestmainp1">치노팬츠 TECHNICO TNQ50126</p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">194,600원</p>
+                      <span>236,600원</span>
+                    </div>
+                    <div class="slide2">
+                      <img src="./images/1100000668_main_081.jpg" alt="" />
+                      <p class="sub_bestmainp1">치노팬츠 TECHNICO TNQ50024</p>
+                      <p class="sub_bestmainp2">30%</p>
+                      <p class="sub_bestmainp3">194,600원</p>
+                      <span>236,600원</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="sub_ranking">
+          <div class="ranking2_title">
+            <div class="ranking2_title1">인기순위 랭킹 BEST</div>
+            <div class="ranking2_title2">
+              <button>DAILY & BUSINESS</button>
+              <button>TRAVEL & LEISURE</button>
+              <button>APPAREL</button>
+            </div>
+            <div class="ranking2_title3">
+              <div class="tri_left3"></div>
+              <div class="tri_right3"></div>
+            </div>
+          </div>
+          <div class="sub_rankingmain">
+            <div class="sub_rankingmainimg">
+              <img src="./images/8.png" alt="" />
+            </div>
+            <div class="sub_rankingmain2">
+              <ul class="list5">
+                <li>
+                  <div class="list6">
+                    <div class="slide3">
+                      <img src="./images/1200000833_main_066.jpg" alt="" />
+                      <p class="sub_rankingmainp1">
+                        백팩 REDUCK RKT01651 (14")
+                      </p>
+                      <p class="sub_rankingmainp2">5%</p>
+                      <p class="sub_rankingmainp3">298,000원</p>
+                      <span>283,100원</span>
+                    </div>
+                    <div class="slide3">
+                      <img src="./images/1200000834_main_040.jpg" alt="" />
+                      <p class="sub_rankingmainp1">백팩 ROVER ROT01651 (15")</p>
+                      <p class="sub_rankingmainp2">5%</p>
+                      <p class="sub_rankingmainp3">378,000원</p>
+                      <span>359,100원</span>
+                    </div>
+                    <div class="slide3">
+                      <img src="./images/1200000902_main_038.jpg" alt="" />
+                      <p class="sub_rankingmainp1">백팩 TRUNK T9T01001 (15")</p>
+                      <p class="sub_rankingmainp2">5%</p>
+                      <p class="sub_rankingmainp3">358,000원</p>
+                      <span>340,100원</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="list6">
+                    <div class="slide3">
+                      <img src="./images/9.png" alt="" />
+                      <p class="sub_rankingmainp1">MACARON MXV13384 (29")</p>
+                      <p class="sub_rankingmainp2">20%</p>
+                      <p class="sub_rankingmainp3">598,000원</p>
+                      <span>478,000원</span>
+                    </div>
+                    <div class="slide3">
+                      <img src="./images/10.png" alt="" />
+                      <p class="sub_rankingmainp1">MACARON MXV13121 (29")</p>
+                      <p class="sub_rankingmainp2">20%</p>
+                      <p class="sub_rankingmainp3">598,000원</p>
+                      <span>478,000원</span>
+                    </div>
+                    <div class="slide3">
+                      <img src="./images/11.png" alt="" />
+                      <p class="sub_rankingmainp1">
+                        (26" 확장형) LOGODUCK+ SZV3205J
+                      </p>
+                      <p class="sub_rankingmainp2">22%</p>
+                      <p class="sub_rankingmainp3">558,000원</p>
+                      <span>438,000원</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="list6">
+                    <div class="slide3">
+                      <img src="./images/1300001421_main_088.jpg" alt="" />
+                      <p class="sub_rankingmainp1">
+                        경량 퀄팅 아우터 TERRA TEJ36027
+                      </p>
+                      <p class="sub_rankingmainp2">5%</p>
+                      <p class="sub_rankingmainp3">438,000원</p>
+                      <span>416,100원</span>
+                    </div>
+                    <div class="slide3">
+                      <img src="./images/1300001422_main_068.jpg" alt="" />
+                      <p class="sub_rankingmainp1">
+                        경량 퀄팅 아우터 TERRA TEJ36473
+                      </p>
+                      <p class="sub_rankingmainp2">5%</p>
+                      <p class="sub_rankingmainp3">438,000원</p>
+                      <span>416,100원</span>
+                    </div>
+                    <div class="slide3">
+                      <img src="./images/1300001479_main_078.jpg" alt="" />
+                      <p class="sub_rankingmainp1">
+                        크루넥 숏니트 OOF OHS10473
+                      </p>
+                      <p class="sub_rankingmainp2">5%</p>
+                      <p class="sub_rankingmainp3">214,700원</p>
+                      <span>203,965원</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------------하단--------------------->
+      <section id="footer">
+        <div class="footer_main">
+          <div class="footer_logo">
+            <h1><img src="./images/logo1.png" alt="" /></h1>
+          </div>
+          <div class="footer_notice">
+            <p class="footer_notice_sub">이용약관</p>
+            <p class="footer_notice_sub2">
+              상호명 : (주)나자인 대표자 : 이규용 / 주소 : 서울특별시 강남구
+              학동로95길 20 (정인빌딩) <br />사업자등록번호 : 206-86-29671
+              [사업자번호조회]
+            </p>
+            <p class="footer_notice_sub3">
+              통신판매업신고번호 : 제2010-서울강남-01003 / 대표번호 :
+              02-3496-8080<br />
+              개인정보관리자 : 조희재 메일 : help@mandarinaduck.co.kr
+            </p>
+          </div>
+          <div class="footer_help">
+            <p class="footer_help_sub">
+              A/S 실시간 상담 카카오 <br />ID '만다리나덕 AS상담'
+            </p>
+            <p class="footer_help_sub2">HELP DESK</p>
+            <p class="footer_help_sub3">
+              02-3496-8080 <br />평일 AM 10:00 - PM 06:00<br />점심 AM 11:50 -
+              PM 01:00 <br />휴무 토,일,공휴일
+            </p>
+          </div>
+          <div class="facebook">
+            <ul class="sns_icon">
+              <li><img src="./images/fb.png" alt="" /></li>
+              <li><img src="./images/insta.png" alt="" /></li>
+              <li><img src="./images/kakao.png" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!--------------세로네비게이션, 로그인새창띄우기----------->
+
+      <ul class="sero">
+        <li>
+          <div class="sero_btn">남자가방</div>
+          <ul class="sero_sub">
+            <li><a href="#">백팩</a></li>
+            <li><a href="#">슬링백</a></li>
+            <li><a href="#">크로스백</a></li>
+            <li><a href="#">토드백및 서류가방</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="sero_btn">여자가방</div>
+          <ul class="sero_sub">
+            <li><a href="#">백팩</a></li>
+            <li><a href="#">슬링백</a></li>
+            <li><a href="#">크로스백</a></li>
+            <li><a href="#">토드백및 서류가방</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="sero_btn">악세사리</div>
+          <ul class="sero_sub">
+            <li><a href="#">악세사리</a></li>
+            <li><a href="#">레저용악세사리</a></li>
+            <li><a href="#">모자</a></li>
+            <li><a href="#">신발</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="sero_btn">캐리어</div>
+          <ul class="sero_sub">
+            <li><a href="#">캐리어</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="sero_btn">레저가방</div>
+          <ul class="sero_sub">
+            <li><a href="#">캐디백</a></li>
+            <li><a href="#">보스턴백</a></li>
+            <li><a href="#">파우치</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="sero_btn">남자상하의</div>
+          <ul class="sero_sub">
+            <li><a href="#">아우터</a></li>
+            <li><a href="#">후드&MTM</a></li>
+            <li><a href="#">티셔츠</a></li>
+            <li><a href="#">남자하의</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="sero_btn">여자상하의</div>
+          <ul class="sero_sub">
+            <li><a href="#">티셔츠</a></li>
+            <li><a href="#">바람막이</a></li>
+            <li><a href="#">저지</a></li>
+            <li><a href="#">자켓,코트</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="main_login">
+        <h2>로그인</h2>
+        <div class="main_login2">
+          <div>로그인 구역</div>
+          <label for="loginid">아이디(E-mail)</label>
+          <input
+            type="text"
+            id="loginid"
+            placeholder="아이디(E-mail)을 입력해 주세요"
+          />
+          <label for="loginpw">비밀번호</label>
+          <input
+            type="password"
+            id="loginpw"
+            placeholder="비밀번호를 입력해 주세요"
+          />
+          <ul>
+            <li><a href="#">아이디/비밀번호찾기</a></li>
+            <li><a href="#">회원가입</a></li>
+          </ul>
+          <button type="submit">로그인</button>
+          <div class="login_close">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOSE
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
