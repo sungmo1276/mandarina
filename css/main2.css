@@ -1,0 +1,512 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+/* <!---------------------헤더---------------------> */
+#header {
+  width: 100%;
+  height: 530px;
+}
+.header_top {
+  width: 100%;
+  height: 60px;
+  background-color: gray;
+}
+.header_sub {
+  margin: 0 auto;
+  width: 1500px;
+  height: 60px;
+}
+.header_notice {
+  width: 200px;
+  height: 60px;
+  float: left;
+}
+.header_notice ul {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.header_notice li {
+  margin-right: 20px;
+  float: left;
+}
+.header_notice a {
+  color: white;
+}
+
+.header_login {
+  width: 385px;
+  height: 60px;
+  float: right;
+}
+
+.header_login ul {
+  margin-top: 20px;
+}
+.header_login li {
+  margin-right: 20px;
+  float: left;
+  border-right: 2px solid#ccc;
+}
+.header_login a {
+  color: white;
+  margin-right: 10px;
+}
+.header_login li:last-child {
+  border-right: 0px;
+}
+
+.header_center {
+  margin: 0 auto;
+  width: 1500px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_logo {
+  width: 370px;
+  height: 50px;
+}
+.header_logo img {
+  margin-top: 10px;
+}
+
+.search {
+  display: flex;
+  margin-right: 10px;
+  width: 350px;
+  height: 50px;
+  align-items: center;
+}
+.search2 {
+  margin-top: 10px;
+  width: 300px;
+  height: 40px;
+}
+.search > img {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+#header_nav {
+  margin: 0 auto;
+  width: 1500px;
+  height: 60px;
+}
+.header_navv {
+  position: relative;
+  width: 100%;
+  margin-left: 10px;
+}
+.header_navv > li {
+  float: left;
+  width: 11%;
+  line-height: 60px;
+  text-align: center;
+  position: relative;
+}
+
+.header_navv > li > a {
+  font-family: "GmarketSansMedium";
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+.header_navv li:nth-child(10) {
+  display: none;
+}
+.header_navv li:nth-child(11) {
+  display: none;
+}
+.header_navv li:nth-child(12) {
+  display: none;
+}
+
+.subb {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  border: 1px solid#ccc;
+  z-index: 400;
+}
+.subb > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid#ccc;
+  display: block;
+  background-color: cadetblue;
+}
+.subb > li > a {
+  font-family: "GmarketSansMedium";
+  font-size: 15px;
+  display: block;
+  color: black;
+}
+.header_navv > li > a.act {
+  display: block;
+  background-color: lightgray;
+  color: black;
+}
+.subb > li > a.act2 {
+  display: block;
+  background-color: lightgray;
+  color: black;
+}
+.mainimg {
+  overflow: hidden;
+  width: 1920px;
+  height: 784px;
+  position: relative;
+}
+#view {
+  width: 100%;
+  height: 784px;
+  position: relative;
+  overflow: hidden;
+}
+#view li {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 784px;
+}
+#view li:nth-child(1) {
+  height: 350px;
+  left: 0%;
+  background: url(../images/66.png) no-repeat 0% 0%;
+}
+#view li:nth-child(2) {
+  height: 350px;
+  left: 100%;
+  background: url(../images/67.png) no-repeat 50% 0;
+}
+#view li:nth-child(3) {
+  height: 350px;
+  left: 200%;
+  background: url(../images/68.png) no-repeat 50% 0;
+}
+
+.mainimg p {
+  bottom: 30px;
+  left: 25%;
+  top: 30%;
+  width: 200px;
+  height: 50px;
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  font-size: 30px;
+}
+.mainimg button {
+  left: 28%;
+  top: 45%;
+  width: 200px;
+  height: 50px;
+  color: black;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+}
+.mainimg .btn {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  margin-left: -32.5px;
+}
+.mainimg .btn li {
+  float: left;
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.mainimg .btn a {
+  display: block;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-color: white;
+}
+.mainimg .btn li.on a {
+  background-color: aqua;
+}
+.tri_left {
+  left: 15%;
+  top: 20%;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-right: 30px solid aqua;
+  border-bottom: 15px solid transparent;
+  cursor: pointer;
+}
+.tri_right {
+  left: 80%;
+  top: 20%;
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-top: 15px solid transparent;
+  border-left: 30px solid aqua;
+  border-bottom: 15px solid transparent;
+  cursor: pointer;
+}
+.sero {
+  background-color: lightyellow;
+  border-radius: 15px;
+  top: 150px;
+  right: 5px;
+  position: absolute;
+  z-index: 9999;
+  margin: 50px;
+  width: 150px;
+}
+.sero > li {
+  width: 150px;
+  margin-bottom: 2px;
+}
+.sero_btn {
+  font-family: "GmarketSansMedium";
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.sero_btn.ok {
+  background-color: yellow;
+}
+.sero_btn.ok1 {
+  background-color: lightgreen;
+}
+
+.sero_sub {
+  width: 100%;
+}
+.sero_sub li {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 1px;
+}
+.sero_sub li a {
+  font-family: "GmarketSansMedium";
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  color: black;
+}
+.sero_sub li a.actt {
+  background-color: lightblue;
+}
+
+/* <!---------------------컨텐츠1---------------------> */
+#contents {
+  width: 1500px;
+  height: 1840px;
+}
+.contents_title {
+  font-family: "GmarketSansMedium";
+  width: 100%;
+  height: 100px;
+}
+.contents_title p {
+  margin-top: 30px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contents_nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.contents_nav_sub {
+  width: 500px;
+  height: 80px;
+}
+
+.contents_nav_sub ul {
+  width: 600px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contents_nav_sub li:nth-child(1) {
+  font-size: 25px;
+  margin-right: 20px;
+}
+.contents_nav_sub li:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+}
+.contents_nav_sub ul a {
+  color: black;
+}
+.contents_nav2 {
+  width: 500px;
+  height: 80px;
+}
+.contents_nav2 ul {
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contents_nav2 li:nth-child(1) {
+  font-weight: bold;
+}
+
+.contents_nav2 ul a {
+  color: black;
+}
+.contents_main {
+  font-family: "GmarketSansMedium";
+  margin-top: 40px;
+  width: 100%;
+  height: 1540px;
+}
+.contents_main ul {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contents_main li {
+  width: 350px;
+  height: 450px;
+}
+.contents_main li img {
+  width: 350px;
+  height: auto;
+}
+.contents_main h4 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contents_p {
+  width: 50px;
+  margin-left: 90px;
+  color: red;
+  float: left;
+}
+.contents .sale {
+  float: left;
+  color: black;
+}
+.contents_main p {
+  margin-bottom: 10px;
+}
+
+.contents_main .sale {
+  text-decoration: line-through;
+}
+.contents_main span {
+  margin-left: 130px;
+  font-weight: bold;
+}
+.contents_footer {
+  width: 300px;
+  margin: 0 auto;
+  height: 50px;
+}
+.contents_footer ul {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contents_footer ul li {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.contents_footer ul li:nth-child(1) {
+  font-weight: bold;
+}
+
+/* <!---------------------하단---------------------> */
+#footer {
+  width: 1500px;
+  height: 300px;
+  background-color: lightgray;
+}
+.footer_logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 300px;
+}
+.footer_notice {
+  float: left;
+  width: 800px;
+  height: 300px;
+}
+.footer_notice_sub {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.footer_notice_sub2 {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.footer_notice_sub3 {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.footer_help {
+  float: left;
+  width: 600px;
+  height: 300px;
+}
+
+.footer_help_sub {
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer_help_sub2 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.group_m {
+  display: none;
+}
+.group_title {
+  display: none;
+}
